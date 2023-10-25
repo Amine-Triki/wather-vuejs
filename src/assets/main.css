@@ -1,0 +1,14 @@
+/* start projects*/
+
+.switcher {
+    list-style:none;
+}
+.switcher li.active {
+    
+    color: #ff0000;
+}
+.switcher li:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+/* end projects*/
