@@ -14,13 +14,13 @@
             <div class="collapse navbar-collapse" id="main">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <RouterLink  to="/" class="nav-link  p-2 p-lg-3">Weather</RouterLink>
+                  <router-link  to="/" class="nav-link  p-2 p-lg-3">Weather</router-link>
                 </li>
                 <li class="nav-item">
-                  <RouterLink to="/projects" class="nav-link  p-2 p-lg-3">Projects</RouterLink>
+                  <router-link to="/projects" class="nav-link  p-2 p-lg-3">Projects</router-link>
                 </li>
                 <li class="nav-item">
-                  <RouterLink to="/contact" class="nav-link  p-2 p-lg-3">Contact Me</RouterLink>
+                  <router-link to="/contact" class="nav-link  p-2 p-lg-3">Contact Me</router-link>
                 </li>
               </ul>
             

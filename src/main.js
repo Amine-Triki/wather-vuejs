@@ -15,6 +15,12 @@ import {  faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
 
 library.add(faLocationDot, faEnvelope, faUser)
 
+import { helix } from 'ldrs'
+helix.register()
+
+
+//bootstrap css
+import "bootstrap/dist/css/bootstrap.css";
 
 
 
@@ -27,3 +33,8 @@ const app = createApp(App)
 
 app.use(router)
 app.mount('#app')
+
+
+
+//bootstrap js
+import "bootstrap/dist/js/bootstrap.js";

@@ -19,7 +19,13 @@
           
         </div>
       </div>
-    
+      <div v-else>
+        <l-helix
+  size="45"
+  speed="2.5" 
+  color="black" 
+></l-helix>
+      </div>
   </main>
 </template>
 <script>
